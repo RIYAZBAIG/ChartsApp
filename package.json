@@ -1,0 +1,69 @@
+{
+  "name": "admindashboard",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.7.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fortawesome/fontawesome-free": "6.1.1",
+    "@mui/material": "^5.11.12",
+    "@rawgraphs/rawgraphs-charts": "^1.0.0-beta.27",
+    "@rawgraphs/rawgraphs-core": "^1.0.0-beta.17",
+    "axios": "^1.3.5",
+    "bootstrap": "4.5.3",
+    "cash-dom": "^8.1.5",
+    "chart.js": "^4.2.1",
+    "classnames": "2.3.1",
+    "interactjs": "^1.10.17",
+    "next-router": "^1.3.6",
+    "perfect-scrollbar": "1.5.5",
+    "prop-types": "15.8.1",
+    "raw.macro": "^0.7.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^3.3.0",
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "^18.2.0",
+    "react-grid-layout": "^1.3.4",
+    "react-json-tree": "^0.18.0",
+    "react-notification-alert": "0.0.13",
+    "react-resizable": "^3.0.5",
+    "react-rnd": "^10.4.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^8.7.1",
+    "recharts": "^2.7.1",
+    "sass": "1.53.0",
+    "styled-components": "6.0.0-rc.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-scss": "sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css",
+    "minify-scss": "sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --style compressed"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9"
+  },
+  "resolutions": {
+    "typescript": "^4.3.2"
+  }
+}
